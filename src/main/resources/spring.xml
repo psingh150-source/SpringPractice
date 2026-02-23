@@ -7,4 +7,11 @@
     <bean id="Class1"  class="org.example.Class1 ">
 
     </bean>
+    <bean id="Class2"  class="org.example.Class1 ">
+
+    </bean>
+
+    <bean id="lap"  class="org.example.Laptop ">
+
+    </bean>
 </beans>
