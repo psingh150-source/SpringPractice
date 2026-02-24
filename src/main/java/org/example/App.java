@@ -7,8 +7,11 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class App {
     public static void main(String[] args) {
         ApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
-        Laptop lp = context.getBean(Laptop.class);
+        Laptop lp = context.getBean("laptop", Laptop.class);
         lp.compile();
+
+        Laptop lp1 = context.getBean("laptop", Laptop.class);
+        lp1.compile();
     }
 }
 
