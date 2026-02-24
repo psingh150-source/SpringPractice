@@ -10,8 +10,10 @@ public class App {
         Laptop lp = context.getBean("laptop", Laptop.class);
         lp.compile();
 
-        Laptop lp1 = context.getBean("laptop", Laptop.class);
-        lp1.compile();
+        Class1 obj=context.getBean(Class1.class);
+        obj.code();
+
+
     }
 }
 

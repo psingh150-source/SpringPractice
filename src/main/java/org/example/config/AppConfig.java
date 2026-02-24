@@ -2,15 +2,17 @@ package org.example.config;
 
 import org.example.Laptop;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;
 
 @Configuration
+@ComponentScan("org.example")
 public class AppConfig {
-  @Bean
-  @Scope("prototype")
-    public Laptop laptop()
-  {
-      return new Laptop();
+//  @Bean
+//  @Scope("prototype")
+//    public Laptop laptop()
+//  {
+//      return new Laptop();
   }
-}
+
