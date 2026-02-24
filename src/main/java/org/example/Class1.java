@@ -1,6 +1,7 @@
 package org.example;
 
 public class Class1 {
+    private int age;
 
     public Class1()
     {

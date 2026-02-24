@@ -4,10 +4,7 @@
        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="Class1"  class="org.example.Class1 ">
-
-    </bean>
-    <bean id="Class2"  class="org.example.Class1 ">
+    <bean id="Class1"  class="org.example.Class1" scope="prototype">
 
     </bean>
 
